@@ -1,0 +1,15 @@
+body {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffff;    
+
+}
+
+.login_entrar {
+
+    outline: none;
+    border-color: #2a5298;
+    box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.2)
+   
+}
+
