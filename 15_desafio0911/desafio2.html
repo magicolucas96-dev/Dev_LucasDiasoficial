@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Desafio 2
+    </h1>
+    
+    <input type="number" id="valor1" placeholder="digite o número...">
+    <input type="number" id="valor2" placeholder="digite o número...">
+    <button id="somar">Soma</button>
+    <div id="resultado"></div>
+
+    <script>
+
+        const campo1 = document.querySelector("#valor1");
+        const campo2 = document.querySelector("#valor2");
+        const botao = document.querySelector("#somar");
+        const resultado = document.querySelector("#resultado");
+
+        // botao.addEventListener("click",()=> {
+        //         alert("teste")
+
+        // })
+
+        botao.addEventListener("click",()=> {
+        
+            const valor1 = document.querySelector("#valor1");
+            const valor2 = document.querySelector("#valor2");
+            const botao = document.querySelector("#somar");
+            const somar = Number(valor1.value) + Number(valor2.value);
+
+            resultado.textContent = somar
+            
+        })
+      
+    </script>
+</body>
+</html>
